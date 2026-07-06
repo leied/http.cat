@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>HTTP Cat mirror</title>
+    <meta name="robots" content="noindex" />
+    <style>
+      body {
+        font-family: system-ui, sans-serif;
+        max-width: 40rem;
+        margin: 4rem auto;
+        line-height: 1.6;
+        padding: 0 1rem;
+      }
+      img {
+        max-width: 100%;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>HTTP Cat mirror</h1>
+    <p>
+      This is a personal fallback mirror of the image API from
+      <a href="https://http.cat">http.cat</a>, used only in case the upstream
+      service is unavailable. It is not affiliated with or endorsed by the
+      original project.
+    </p>
+    <p>
+      All credit for the concept, artwork, and status descriptions goes to
+      the original <a href="https://github.com/httpcats/http.cat">httpcats/http.cat</a>
+      project and its contributors.
+    </p>
+    <p>
+      Usage: request any HTTP status code as a path, e.g.
+      <code>/200</code> or <code>/404.jpg</code>, to get the matching cat
+      image.
+    </p>
+    <img src="/200.jpg" alt="HTTP 200 cat" width="300" />
+  </body>
+</html>

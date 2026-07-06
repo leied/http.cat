@@ -1,0 +1,2 @@
+/:code.jpg /images/:code.jpg 200
+/:code /images/:code.jpg 200
